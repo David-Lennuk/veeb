@@ -17,7 +17,7 @@ namespace veeb.Controllers
         {
             _logger = logger;
         }
-
+        //sd
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
