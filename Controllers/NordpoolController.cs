@@ -44,7 +44,7 @@ namespace veeb.Controllers
                     return Content(prices, "application/json");
 
                 case "lt":
-                    prices = dataProperty.GetProperty("lt").ToString();
+                    prices = dataProperty.GetProperty("lt").ToString();//
                     return Content(prices, "application/json");
 
                 case "fi":

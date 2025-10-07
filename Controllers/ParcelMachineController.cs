@@ -15,7 +15,7 @@ namespace veeb.Controllers
 
         [HttpGet]
         public async Task<IActionResult> GetParcelMachines()
-        {
+        {//
             var response = await _httpClient.GetAsync("https://www.omniva.ee/locations.json");
             var responseBody = await response.Content.ReadAsStringAsync();
             return Content(responseBody, "application/json");
