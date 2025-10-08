@@ -15,7 +15,7 @@ namespace veeb.Controllers
             new Toode(4,"Vichy", 2.0, true),
             new Toode(5,"Vitamin well", 2.5, true)
         };
-        //
+        
         // GET https://localhost:4444/tooted
         [HttpGet]
         public List<Toode> Get()
